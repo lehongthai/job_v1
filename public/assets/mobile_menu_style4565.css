@@ -1,0 +1,75 @@
+#menu_xs,
+#menu-toggle {
+	position:fixed;
+	z-index: 300;
+	left: -275px;
+	transition: left 0.4s ease;
+}
+#menu_xs {
+	width: 275px;
+	height: 100%;
+	background: #2B2B2B;
+}
+.sidebar-nav {
+	padding: 5px 0 5px 10px;
+	width: 100%;
+	margin: 0;
+}
+.sidebar-nav li {
+	font-size: 16px;
+	padding: 5px 0;
+}
+.sidebar-nav li a {
+color: #fff;
+}
+#menu_xs ul a span {
+	float: right;
+	text-align:center;
+	width:25%;
+}
+#menu_xs ul.sidebar-nav li ul {
+	display: none;
+	padding-left: 20px;
+	list-style: none;
+}
+#top-search-sm form {
+	width: 100%;
+	padding: 10px 10px 5px 0;
+	margin-bottom: 15px;
+}
+#top-search-sm .form-control {
+	width: 100%;
+	height: 40px;
+}
+#menu-toggle {
+	top: 5px;
+	color: #fff;
+	margin-left: 285px;
+	border: none;
+	font-size: 20px;
+	background-color: #000;
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	font-size: 25px;
+	padding: 0;
+	text-align: center;
+}
+.body_overlay {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.6);
+	z-index: 299;
+	visibility: hidden;
+	opacity: 0;
+	transition: visibility 0.4s ease, opacity 0.4s ease;
+}
+.body_overlay.toggled {
+	visibility: visible;
+	opacity: 1;
+}
+#menu-toggle.toggled,
+#menu_xs.toggled {
+	left: 0;
+}
