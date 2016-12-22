@@ -186,16 +186,16 @@
 		// ====================================================================
 
 		/*div custom post*/
-		$('#form-custom-post').css({'height': (($(window).height()-300))+'px'});
+		$('#form-custom-post').css({'height': (($(window).height()-320))+'px'});
 		$(window).resize(function(){
-			$('#form-custom-post').css({'height': (($(window).height()-300))+'px'});
+			$('#form-custom-post').css({'height': (($(window).height()-320))+'px'});
 		});
 
 		// Slider
 
-		$('#slider').css({'height': (($(window).height()-300))+'px'});
+		$('#slider').css({'height': (($(window).height()-320))+'px'});
 		$(window).resize(function(){
-			$('#slider').css({'height': (($(window).height()-300))+'px'});
+			$('#slider').css({'height': (($(window).height()-320))+'px'});
 		});
 
 		var Page = (function() {

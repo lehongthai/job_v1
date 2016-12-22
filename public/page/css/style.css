@@ -1910,7 +1910,7 @@ header {
 .menu-top-job {
 	background-color: #fff;
 	position: fixed;
-	margin-top: 55px;
+	margin-top: 35px;
 	left: 0;
 	z-index: 999;
 	width: 100%;
@@ -1931,7 +1931,7 @@ header {
 
 .news-jobs-day{
 	margin: 0 10px 16px;
-	margin-top: 135px;
+	margin-top: 110px;
 	border: 2px solid #f28006;
     margin-right: 10px;
     margin-left: 10px;
@@ -2198,4 +2198,9 @@ ul.social-login li{
 .require{
 	color: red;
 	font-size: 25px;
+}
+.modal-dialog {
+    width: 750px;
+    margin: 30px auto;
+    margin-top: 75px;
 }

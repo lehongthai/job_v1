@@ -26,6 +26,12 @@
     <!-- Main Stylesheet -->
     <link href="{!! url('public/page') !!}/css/style.css" rel="stylesheet">
     <link href="{!! url('public/admin') !!}/dist/css/select2.min.css" rel="stylesheet">
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="{!! url('public/page') !!}/js/jquery-1.11.2.min.js"></script>
+    
+
+    <!-- Bootstrap Plugins -->
+    <script src="{!! url('public/page') !!}/js/bootstrap.min.js"></script>
 
     <!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -57,7 +63,7 @@
 
     <!-- ============ HEADER START ============ -->
 
-    <header>
+    <header style="line-height: 20px">
       <div id="header-background"></div>
       <div class="container" id="menu-custom">
       <div id="menu-open" class="pull-right"><a class="link-register">Register</a> | <a class="link-login">Login</a></div>
@@ -109,7 +115,7 @@
     <!-- ============ SLIDES START ============ -->
 <div class="container">
   @yield('newsJobs')
-<div class="row" style="margin-top: 30px">
+<div class="row" style="margin-top: 10px">
   <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
     
   {{-- slider --}}
@@ -162,12 +168,7 @@
     <!-- Modernizr Plugin -->
     <script src="{!! url('public/page') !!}/js/modernizr.custom.79639.js"></script>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="{!! url('public/page') !!}/js/jquery-1.11.2.min.js"></script>
-    
-
-    <!-- Bootstrap Plugins -->
-    <script src="{!! url('public/page') !!}/js/bootstrap.min.js"></script>
+  
 
     <!-- Retina Plugin -->
     <script src="{!! url('public/page') !!}/js/retina.min.js"></script>
@@ -210,6 +211,7 @@
 
     <!-- jQuery Settings -->
     <script src="{!! url('public/page') !!}/js/settings.js"></script>
+    <script src="{!! url('public/admin') !!}/js/select2.min.js"></script>
     <script src="{!! url('public/page') !!}/js/myscript.js"></script>
     @yield('javascript')
 
